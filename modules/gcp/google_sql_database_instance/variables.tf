@@ -1,0 +1,12 @@
+variable "name" {}
+variable "project" {}
+variable "region" {}
+variable "database_version" {}
+variable "deletion_protection" {}
+variable "tier" {}
+variable "ipv4_enabled" {}
+variable "disk_size" {}
+variable "disk_type" {}
+variable "database_name" {}
+variable "database_username" {}
+variable "database_password" {}
