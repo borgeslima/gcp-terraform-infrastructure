@@ -29,15 +29,15 @@ $ gcloud auth login
 ```
 
 ```sh
-$ terraform init 
+$ terragrunt init 
 ```
 
 ```sh
-$ terraform plan 
+$ terragrunt plan 
 ```
 
 ```sh
-$ terraform apply 
+$ terragrunt apply 
 ```
 
 
