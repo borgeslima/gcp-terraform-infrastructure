@@ -85,8 +85,8 @@ helms = {
 # ############## REDIS/MERCHANT ############
 
 redis_instances = {
-  digital_order_redis = {
-    name                    = "digital-order-redis"
+  redis = {
+    name                    = "redis"
     tier                    = "STANDARD_HA"
     region                  = "us-east1"
     location_id             = "us-east1-d"
@@ -105,8 +105,8 @@ spanners = {
     config           = "regional-us-east5"
     processing_units = 100
     databases = {
-      crm_coupon = {
-        name                     = "crm-coupon"
+      crm = {
+        name                     = "crm"
         version_retention_period = "1d"
         ddl                      = ["CREATE TABLE t1 (t1 INT64 NOT NULL,) PRIMARY KEY(t1)"]
       }
