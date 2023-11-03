@@ -1,7 +1,7 @@
 ############# Configurações gerais ###############
 
-project_id    = "finops"
-gke_name      = "finops"
+project_id    = "gcp-infrastructure"
+gke_name      = "gcp-infrastructure"
 region        = "us-east1"
 gke_num_nodes = 1
 
